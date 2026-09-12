@@ -41,16 +41,6 @@ The notebook `heart_disease/EDA_heart_disease.ipynb` includes:
 - Feature scaling using `StandardScaler`
 - Pearson correlation setup for selected features vs target
 
-## How to Use
-
-1. Open notebooks locally in Jupyter or in Google Colab.
-2. Start with:
-   - `heart_disease/EDA_heart_disease.ipynb` for complete EDA workflow.
-   - `insurance/EDA_insurance.ipynb` as a starting point for future insurance EDA.
-3. Ensure common Python EDA libraries are available:
-   - `numpy`, `pandas`, `matplotlib`, `seaborn`, `scikit-learn`, `scipy`
-
 ## Notes
 
 - The heart disease notebook loads data from the repository's raw GitHub URL in one step; local CSV files are also present.
-- The insurance notebook is currently minimal and can be expanded with cleaning, visualization, and statistical analysis similar to the heart disease workflow.
