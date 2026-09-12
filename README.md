@@ -45,7 +45,7 @@ The notebook `heart_disease/EDA_heart_disease.ipynb` includes:
 
 The notebook `insurance/EDA_insurance.ipynb` currently includes:
 - A Google Colab badge linking to the notebook
-- A single empty code cell (no EDA steps implemented yet)
+- One blank code cell with no imports, data loading, analysis, or visualizations yet
 
 ## Notes
 
