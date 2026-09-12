@@ -20,10 +20,12 @@ This repository contains exploratory data analysis (EDA) work on Kaggle-style ta
 ### 1) Heart Disease Dataset (`heart_disease/heart.csv`)
 - Columns: `Age`, `Sex`, `ChestPainType`, `RestingBP`, `Cholesterol`, `FastingBS`, `RestingECG`, `MaxHR`, `ExerciseAngina`, `Oldpeak`, `ST_Slope`, `HeartDisease`
 - Target variable: `HeartDisease` (binary)
+- Source: https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction
 
 ### 2) Insurance Dataset (`insurance/insurance.csv`)
 - Columns: `age`, `sex`, `bmi`, `children`, `smoker`, `region`, `charges`
 - Typical use case: analyzing medical charge patterns against demographic and lifestyle factors.
+- Source: https://www.kaggle.com/datasets/mirichoi0218/insurance
 
 ## What the Heart Disease Notebook Currently Covers
 
