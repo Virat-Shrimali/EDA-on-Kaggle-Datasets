@@ -41,6 +41,12 @@ The notebook `heart_disease/EDA_heart_disease.ipynb` includes:
 - Feature scaling using `StandardScaler`
 - Pearson correlation setup for selected features vs target
 
+## What the Insurance/Medical Cost Notebook Currently Covers
+
+The notebook `insurance/EDA_insurance.ipynb` currently includes:
+- A Google Colab badge linking to the notebook
+- A single empty code cell (no EDA steps implemented yet)
+
 ## Notes
 
 - The heart disease notebook loads data from the repository's raw GitHub URL in one step; local CSV files are also present.
