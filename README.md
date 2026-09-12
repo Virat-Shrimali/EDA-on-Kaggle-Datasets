@@ -44,8 +44,24 @@ The notebook `heart_disease/EDA_heart_disease.ipynb` includes:
 ## What the Insurance/Medical Cost Notebook Currently Covers
 
 The notebook `insurance/EDA_insurance.ipynb` currently includes:
-- A Google Colab badge linking to the notebook
-- One blank code cell with no imports, data loading, analysis, or visualizations yet
+- Imports and setup for NumPy, pandas, seaborn, matplotlib, and warning suppression
+- Data loading from a raw GitHub URL, with initial inspection (`df`, `shape`, `head`, `info`, `describe`, null checks)
+- Univariate analysis for numeric features using histogram + KDE plots
+- Count plots for categorical features (`children`, `sex`, `smoker`, `region`)
+- Boxplots and a numeric correlation heatmap
+- Data cleaning with duplicate removal and datatype checks
+- Encoding and preprocessing steps:
+  - Binary mapping for `sex` and `smoker` (`isFemale`, `isSmoker`)
+  - One-hot encoding for `region` with `drop_first=True`
+  - Integer casting after encoding
+- Feature engineering:
+  - BMI category creation (`Underweight`, `Normal`, `Overweight`, `Obese`)
+  - One-hot encoding of BMI categories
+- Feature scaling for selected numeric columns using `StandardScaler`
+- Feature extraction/statistical checks:
+  - Pearson correlation against `charges`
+  - Chi-square tests for categorical features using binned `charges`
+- A reduced `final_df` selection of modeled features
 
 ## Notes
 
