@@ -12,8 +12,6 @@ This repository contains exploratory data analysis (EDA) work on Kaggle-style ta
   - `insurance.csv`: Medical insurance dataset (1338 rows, 7 columns).
   - `EDA_insurance.ipynb`: Notebook scaffold with Colab link (currently no analysis cells).
   - `.gitkeep`: Placeholder file.
-- `heart.csv`
-  - A root-level copy of the same heart disease dataset used in `heart_disease/`.
 
 ## Dataset Details
 
