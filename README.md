@@ -65,4 +65,4 @@ The notebook `insurance/EDA_insurance.ipynb` currently includes:
 
 ## Notes
 
-- The heart disease notebook loads data from the repository's raw GitHub URL in one step; local CSV files are also present.
+- Both notebooks loads data from the repository's raw GitHub URL in one step; local CSV files are also present.
